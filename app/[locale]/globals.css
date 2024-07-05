@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tw-accent: #d6a07e;
+  --tw-textMain: #302e2d;
+  --tw-textSubTitle: #6f6d6c;
+  --tw-accentSecondary: #828282;
+  --tw-whiteBtn: rgba(255, 255, 255, 0.15);
+  --tw-yellowBg: #f6f1dc;
+}
+
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url("../../public/fonts/Manrope-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url("../../public/fonts/Manrope-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Spectral-Medium";
+  src: url("../../public/fonts/Spectral-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Spectral-MediumItalic";
+  src: url("../../public/fonts/Spectral-MediumItalic.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Testimonia";
+  src: url("../../public/fonts/Testimonia.ttf") format("opentype");
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Manrope-Medium";
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 374px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 410px) {
+  .container {
+    max-width: 400px;
+  }
+}
+@media (min-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 590px;
+  }
+}
+
+@media (min-width: 660px) {
+  .container {
+    max-width: 660px;
+  }
+}
+
+@media (min-width: 710px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
+}
+
+@media (min-width: 849px) {
+  .container {
+    max-width: 849px;
+  }
+}
+
+@media (min-width: 970px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
