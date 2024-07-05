@@ -1,8 +1,7 @@
-// app/[locale]/layout.js
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Header } from "@/components/Header/Header";
+import TranslationsProvider from "@/components/TranslationsProvider";
+import initTranslations from "../i18n";
 
 async function fetchMetaTags(locale, pageId) {
   const response = await fetch(
@@ -54,10 +53,24 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function RootLayout({ children, params: { locale } }) {
+export default async function RootLayout({ children, params: { locale } }) {
+  const i18nNamespaces = ["home"]; // or other namespaces needed for layout
+  const { resources } = await initTranslations(locale, i18nNamespaces);
+
   return (
     <html lang={locale}>
-      <body className={inter.className}>{children}</body>
+      <body>
+        <TranslationsProvider
+          resources={resources}
+          locale={locale}
+          namespaces={i18nNamespaces}
+        >
+          <header>
+            <Header />
+          </header>
+          {children}
+        </TranslationsProvider>
+      </body>
     </html>
   );
 }

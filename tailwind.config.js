@@ -32,6 +32,7 @@ module.exports = {
         "max-width": "1400px",
       },
       colors: {
+        white: "#ffffff",
         textMain: "#616161",
         accent: "#D6A07E",
         accentBg: "#f3ede8",

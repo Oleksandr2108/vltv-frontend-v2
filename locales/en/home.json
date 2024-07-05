@@ -1,4 +1,131 @@
 {
-  "title": "English",
-  "text" : "English text"
+  "header": {
+    "shop": "shop",
+    "training": "training",
+    "recipes": "recipes",
+    "blog": "blog",
+    "sign_in": "sign in",
+    "offer": "7 days free",
+    "menu": "Menu"
+  },
+  "burgerMenu": {
+    "title_1": "Shop",
+    "title_2": "Clients",
+    "links": {
+      "clothes": "Clothes",
+      "sports_equipment": "Sports equipment",
+      "accessories": "Accessories",
+      "training": "Training",
+      "certificates": "Certificates",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact"
+    }
+  },
+  "mainSection": {
+    "title": "Welcome to the world of",
+    "title_name": "Victoria Liub",
+    "subtitle": "You can train, cook delicious and healthy dishes, and learn self-care tips.",
+    "join": "join",
+    "offer": "7 days free",
+    "tags": {
+      "tag_1": "Model from 5 years old",
+      "tag_2": "10 years in sports",
+      "tag_3": "Mrs. Universe 2020",
+      "tag_4": "24 movie roles"
+    }
+  },
+  "aboutSection": {
+    "title": "Welcome to Victoria Liub’s  world – actress, model,and Mrs. Universe!",
+    "subtitle": "With almost 30 years of experience working with Hollywood stars, directors, photographers, celebrities and designers worldwide, Victoria knows many secrets of functional medicine to maintain health and an active lifestyle.",
+    "tag": "Supports Ukraine",
+    "list": {
+      "item_1": "Strategic Leader in Fusion Health&Beaty technology, R&D",
+      "item_2": "Designing Tomorrow’s Wellness Solutions.",
+      "item_3": "Fitness, Nutrition and Lifestyle Guru",
+      "item_4": "Cosmetics Innovation",
+      "item_5": "Life Style Correction Expert",
+      "item_6": "Austere Solution Minded",
+      "item_7": "Develops a passion for advanced functional medicine"
+    }
+  },
+  "titleSection": {
+    "part_1": "“The only",
+    "specialPart": "beauty",
+    "part_2": "I know is health"
+  },
+  "trainingSection": {
+    "title": "Training programs",
+    "subtitle": "For different levels of training",
+    "text": "Get a variety of workouts and improve your health and body quality. Analyze your results and stay motivated",
+    "linkText": "Watch video preview training sessions",
+    "tag_1": "15-50 min/day",
+    "tag_2": "Quality",
+    "miniTitle_1": "Sports and grooming",
+    "miniTitle_2": "Nutrition"
+  },
+  "recommendedSection": {
+    "title": "Make proper nutrition a part of your life",
+    "subtitle_1": "In each recipe",
+    "subtitle_2": "Meal analytics",
+    "subtitle_3": "Practical tips",
+    "subtitle_4": " The most popular <br className='block laptop:hidden' /> nutrition programs",
+    "text": "Over 20 nutrition programs based on the latest research, tailored to your individual needs",
+    "text_1": "The total number of calories per 1 meal is indicated",
+    "text_2": "The amount of calories, proteins, fats, carbohydrates and micronutrients is indicated",
+    "text_3": "It allows you to determine <br /> <span className='text-textMain'>comfortable menu</span> for the body",
+    "text_4": "Will <span className='text-textMain' >help</span> you eat healthy food",
+    "text_5": " Help instill <span className='text-textMain' >healthy eating habits</span> and improve <br className='hidden laptop:block' /> whole body health",
+    "list": {
+      "item_1": "Keto diet",
+      "item_2": "Interval fasting",
+      "item_3": "Vegan menu",
+      "item_4": "FODMAP diet",
+      "item_5": "Anti Age",
+      "item_6": "Express drying",
+      "item_7": "LCHF"
+    },
+    "all_programs": "All programs",
+    "from_Victoria": "From Victoria",
+    "kcal": {
+      "title": "Kcal 330",
+      "tag_1": "F 14",
+      "tag_2": "C 10",
+      "tag_3": "P 14"
+    },
+    "time": {
+      "tag_1": "Breakfast <span className='text-textMain'>10:00</span>",
+      "tag_2": "lunch <span className='text-textMain'>13:30</span>",
+      "tag_3": " DINNER <span className='text-textMain'>19:00</span>"
+    }
+  },
+  "semicircleSection": {
+    "title": "Your success <br className='block laptop:hidden' /> begins <br /> here and now",
+    "subtitle": "Take a step today toward <br className='block laptop:hidden' /> your tomorrow",
+    "join": "join",
+    "tag_1": "From 5 min cooking",
+    "tag_2": "15-50 min/day"
+  },
+  "forWhomSection": {
+    "title": "A platform for those who want",
+    "subtitle_1": "Learn the secrets",
+    "subtitle_2": "Forget about the search ",
+    "subtitle_3": "Be aware",
+    "text_1": "Victoria as well as Hollywood celebrities about healthy lifestyles, with whom Victoria has interacted during numerous shoots",
+    "text_2": "of various health, workout, recipe and beauty apps - we have everything you need!",
+    "text_3": "proper self-care, including self-massage of the face and body, masks to improve the quality of skin and hair, as well as interesting research materials."
+  },
+  "offerSection": {
+    "title": "The first <br className='block laptop:hidden '/> 7 days are free",
+    "item_1": "Registration takes few seconds",
+    "item_2": "No entry required bank card",
+    "text": "If you like it, you can extend your access within the platform, with subscriptions starting at $7 per month.",
+    "sign_up": "Sign up"
+  },
+  "footer": {
+    "privacy_policy": "Privacy Policy",
+    "conditions_of_use": "Conditions of Use",
+    "title": "Stay up to date with all the news",
+    "subtitle": " Subscribe to our social networks to find <br /> out the latest information"
+  }
 }
