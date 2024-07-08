@@ -2,6 +2,7 @@ import "./globals.css";
 import { Header } from "@/components/Header/Header";
 import TranslationsProvider from "@/components/TranslationsProvider";
 import initTranslations from "../i18n";
+import { Footer } from "@/components/Footer/Footer";
 
 async function fetchMetaTags(locale, pageId) {
   const response = await fetch(
@@ -69,6 +70,9 @@ export default async function RootLayout({ children, params: { locale } }) {
             <Header />
           </header>
           {children}
+          <footer>
+            <Footer />
+          </footer>
         </TranslationsProvider>
       </body>
     </html>

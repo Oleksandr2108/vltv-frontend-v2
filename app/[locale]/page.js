@@ -5,6 +5,9 @@ import { AboutSection } from "@/components/AboutSection/AboutSection";
 import { TitleSection } from "@/components/TitleSection/TitleSection";
 import { TrainingSection } from "@/components/TrainingSection/TrainingSection";
 import { RecommendedSection } from "@/components/RecommendedSection/RecommendedSection";
+import { SemicircleSection } from "@/components/SemicircleSection/SemicircleSection";
+import { ForWhomSection } from "@/components/ForWhomSection/ForWhomSection";
+import { OfferSection } from "@/components/OfferSection/OfferSection";
 
 const i18nNamespaces = ["home"];
 
@@ -22,6 +25,9 @@ export default async function Home({ params: { locale } }) {
         <TitleSection />
         <TrainingSection />
         <RecommendedSection />
+        <SemicircleSection />
+        <ForWhomSection />
+        <OfferSection/>
       </main>
     </TranslationsProvider>
   );

@@ -1,0 +1,16 @@
+name: vltv-frontend
+
+services:
+  vltv-frontend:
+    container_name: vltv-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - .:/app
+      - /app/node_modules
+
