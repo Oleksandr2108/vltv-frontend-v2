@@ -23,7 +23,10 @@ export async function generateMetadata({ params }) {
   const metaTags = await fetchMetaTags(locale, pageId);
 
   return {
-    metadataBase: "https://vl-tv.com", 
+    metadataBase: "https://vl-tv.com",
+    icons: {
+      icon: "/images/Logo.svg",
+    },
 
     title: metaTags?.seo_title || metaTags?.title,
     description: metaTags?.seo_description,
@@ -56,9 +59,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-
 export default async function RootLayout({ children, params: { locale } }) {
-  const i18nNamespaces = ["home"]; // or other namespaces needed for layout
+  const i18nNamespaces = ["home"];
   const { resources } = await initTranslations(locale, i18nNamespaces);
 
   return (

@@ -1,6 +1,7 @@
-version: '3'
+name: vltv-frontend
 services:
-  nextjs-app:
+  vltv-frontend:
+    container_name: vltv-frontend
     build:
       context: .
       dockerfile: Dockerfile

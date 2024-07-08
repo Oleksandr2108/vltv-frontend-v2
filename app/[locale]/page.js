@@ -1,3 +1,4 @@
+
 import TranslationsProvider from "@/components/TranslationsProvider";
 import initTranslations from "../i18n";
 import { MainSection } from "@/components/MainSection/MainSection";
@@ -9,6 +10,7 @@ import { SemicircleSection } from "@/components/SemicircleSection/SemicircleSect
 import { ForWhomSection } from "@/components/ForWhomSection/ForWhomSection";
 import { OfferSection } from "@/components/OfferSection/OfferSection";
 
+
 const i18nNamespaces = ["home"];
 
 export default async function Home({ params: { locale } }) {
@@ -19,6 +21,7 @@ export default async function Home({ params: { locale } }) {
       locale={locale}
       namespaces={i18nNamespaces}
     >
+       
       <main>
         <MainSection />
         <AboutSection />
@@ -27,7 +30,7 @@ export default async function Home({ params: { locale } }) {
         <RecommendedSection />
         <SemicircleSection />
         <ForWhomSection />
-        <OfferSection/>
+        <OfferSection />
       </main>
     </TranslationsProvider>
   );

@@ -43,13 +43,19 @@ export const MainSection = () => {
 
   return (
     <>
+     
       <div className="relative xs:h-[890px] xm:h-[990px] tabletLarge:h-[1450px] pdt:h-[1492px] laptop:h-auto bg-yellowBg">
         <div className="relative w-full laptop:h-[920px]">
           <div className="absolute inset-0 laptop:flex">
             <div className={`${styles["left-part"]}`}></div>
-            <div className={`block w-full laptop:h-full laptop:flex-1 ${styles["right-part"]} relative`}>
+            <div
+              className={`block w-full laptop:h-full laptop:flex-1 ${styles["right-part"]} relative`}
+            >
               {tags.map(({ left, top, text, imgFirst }, index) => (
-                <div key={index} className={`flex absolute ${left} ${top}`}>
+                <div
+                  key={index}
+                  className={`flex absolute ${left} ${top}`}
+                >
                   {imgFirst && (
                     <Image
                       src={tag}
@@ -58,11 +64,15 @@ export const MainSection = () => {
                     />
                   )}
                   <p
-                    className={`${classForTextOnImage({ color: "white" })} rounded-[3px] text-[10px] desktop:text-[14px] leading-[14px] px-[10px] ${
+                    className={`${classForTextOnImage({
+                      color: "white",
+                    })} rounded-[3px] text-[10px] desktop:text-[14px] leading-[14px] px-[10px] ${
                       imgFirst ? "ml-[5px]" : "mr-[5px]"
                     }`}
                   >
-                    <span className="text-[10px] laptop:text-[14px]">{text}</span>
+                    <span className="text-[10px] laptop:text-[14px]">
+                      {text}
+                    </span>
                   </p>
                   {!imgFirst && (
                     <Image
@@ -96,9 +106,11 @@ export const MainSection = () => {
                 <div className="flex">
                   <Link
                     href="/"
-                    className={`col-start-1 col-end-3 rounded-[5px] ${classForButton({
-                      color: "orange",
-                    })} hover:text-accent w-full hover:bg-white tablet:text-[16px] laptop:w-auto px-[30px] h-[62px] mt-[30px] text-[16px] leading-[22.4px] duration-custom`}
+                    className={`col-start-1 col-end-3 rounded-[5px] ${classForButton(
+                      {
+                        color: "orange",
+                      }
+                    )} hover:text-accent w-full hover:bg-white tablet:text-[16px] laptop:w-auto px-[30px] h-[62px] mt-[30px] text-[16px] leading-[22.4px] duration-custom`}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
