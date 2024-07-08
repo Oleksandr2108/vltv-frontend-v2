@@ -23,6 +23,8 @@ export async function generateMetadata({ params }) {
   const metaTags = await fetchMetaTags(locale, pageId);
 
   return {
+    metadataBase: "https://vl-tv.com", 
+
     title: metaTags?.seo_title || metaTags?.title,
     description: metaTags?.seo_description,
     robots: {
@@ -53,6 +55,7 @@ export async function generateMetadata({ params }) {
     },
   };
 }
+
 
 export default async function RootLayout({ children, params: { locale } }) {
   const i18nNamespaces = ["home"]; // or other namespaces needed for layout

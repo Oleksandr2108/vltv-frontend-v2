@@ -1,8 +1,6 @@
-name: vltv-frontend
-
+version: '3'
 services:
-  vltv-frontend:
-    container_name: vltv-frontend
+  nextjs-app:
     build:
       context: .
       dockerfile: Dockerfile
@@ -12,5 +10,3 @@ services:
       NODE_ENV: production
     volumes:
       - .:/app
-      - /app/node_modules
-
