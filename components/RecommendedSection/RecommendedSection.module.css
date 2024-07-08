@@ -1,0 +1,44 @@
+.dishes {
+  display: block;
+  position: absolute;
+  width: 732px;
+  height: 461px;
+  top: 39px;
+  left: 98px;
+}
+
+.back {
+  position: relative;
+}
+
+.back::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('../../public/images/back.png');
+  background-repeat: repeat;
+  background-size: 100%;
+  opacity: 1;
+  z-index: 0;
+}
+@media (max-width: 969px) {
+  .dishes {
+    width: 630px;
+    height: 399px;
+    left: 44px;
+    top: 52px;
+  }
+}
+@media (max-width: 500px) {
+  .dishes {
+    width: 475px;
+    height: 299px;
+    left: -57px;
+    top: 200px;
+  }
+}
+
+

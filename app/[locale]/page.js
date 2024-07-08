@@ -1,6 +1,10 @@
 import TranslationsProvider from "@/components/TranslationsProvider";
 import initTranslations from "../i18n";
 import { MainSection } from "@/components/MainSection/MainSection";
+import { AboutSection } from "@/components/AboutSection/AboutSection";
+import { TitleSection } from "@/components/TitleSection/TitleSection";
+import { TrainingSection } from "@/components/TrainingSection/TrainingSection";
+import { RecommendedSection } from "@/components/RecommendedSection/RecommendedSection";
 
 const i18nNamespaces = ["home"];
 
@@ -14,6 +18,10 @@ export default async function Home({ params: { locale } }) {
     >
       <main>
         <MainSection />
+        <AboutSection />
+        <TitleSection />
+        <TrainingSection />
+        <RecommendedSection />
       </main>
     </TranslationsProvider>
   );

@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 
 export const PinkArrowIcon = ({ stroke = '#E8D3D7', hovered }) => {
   const hoverStroke = hovered ? '#D6A07E' : stroke;
@@ -24,7 +23,4 @@ export const PinkArrowIcon = ({ stroke = '#E8D3D7', hovered }) => {
   );
 };
 
-PinkArrowIcon.propTypes = {
-  stroke: PropTypes.string,
-  hovered: PropTypes.bool,
-};
+
